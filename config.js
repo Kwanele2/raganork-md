@@ -19,8 +19,8 @@ module.exports = {
     ANTISPAM_COUNT: process.env.ANTISPAM_COUNT || '7/10', // msgs/sec
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group auto unmuted!_\n_(edit AUTOUNMUTE_MSG)_',
     AUTO_READ_STATUS: convertToBool(process.env.AUTO_READ_STATUS) || true,
-    READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
-    PMB_VAR: convertToBool(process.env.PMB_VAR) || false,
+    READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || true,
+    PMB_VAR: convertToBool(process.env.PMB_VAR) || true,
     DIS_PM: convertToBool(process.env.DIS_PM) || false,
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || true,
     PMB: process.env.PMB || '_Personal messages not allowed, BLOCKED!_',
